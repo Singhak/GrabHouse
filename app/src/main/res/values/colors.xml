@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff72f2f4</color>
+    <color name="green">#ff139d41</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ffbf210c</color>
+    <color name="red_app">#ffff1107</color>
+    <color name="skyblue">#ffd45321</color>
+    <color name="yellow">#f09300</color>
+    <color name="black">#000000</color>
+    <color name="dark_blue">#ff2f58ff</color>
+
+    <color name="primary">#ffbe48</color>
+    <color name="primaryDark">#737373</color>
+    <color name="accent">#d13b07</color>
+
+    <!-- demo screen colors -->
+    <color name="color_1">#ffffff</color>
+    <color name="color_2">#54fffd</color>
+    <color name="color_3">#ffce56</color>
+</resources>

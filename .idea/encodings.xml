@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/AuthPreferences.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/GlobalVariables.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/LruBitmapCache.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/PrefManager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/Utilities.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/Utilities.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/VolleySingleton.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/activities/ActivityAuthentication.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/activities/ActivityDemo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/activities/ActivityOTP.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/adapters/DemoPagerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/fragments/DemoFragment1.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/fragments/DemoFragment2.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/fragments/DemoFragment3.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/toDo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/utilities/Data.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/utilities/PrefManager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/utilities/ToDo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/utilities/Utilities.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/CircleImageView.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/CustomTypefaceSpan.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/MyViewPager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/SquareImageView.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_nexa_bold.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_bold.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_condensed_bold.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_condensed_regular.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_light.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_medium.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_medium_italic.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_regular.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/grabhouse/grabhouse/views/TextView_roboto_thin.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_200x200.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/oval_viewpager_indicator_dark.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/oval_viewpager_indicator_light.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_demo.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_otp.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_demo_1.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_demo_2.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_demo_3.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/logo.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

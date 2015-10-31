@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="radius_button_start">8dp</dimen>
+    <dimen name="griditem_padding">4dp</dimen>
+    <dimen name="photo_corner_radius">25dp</dimen>
+    <integer name="activity_anim_duration">300</integer>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="nav_header_height">192dp</dimen>
+    <dimen name="expanded_toolbar_title_margin_start">64dp</dimen>
+    <dimen name="nav_header_text_margin_left">16dp</dimen>
+</resources>
