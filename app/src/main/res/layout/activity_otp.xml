@@ -14,7 +14,7 @@
             android:id="@+id/layout_sms"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@color/primary"
+            android:background="@color/color_primary"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
@@ -24,7 +24,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="40dp"
                 android:layout_marginTop="100dp"
-                android:src="@drawable/logo_grabhouse" />
+                android:src="@drawable/icon_200x200" />
 
             <com.grabhouse.grabhouse.views.TextView_roboto_medium
                 android:layout_width="fill_parent"
@@ -70,7 +70,7 @@
             android:id="@+id/layout_otp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/primary"
+            android:background="@color/color_primary"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
@@ -135,7 +135,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginBottom="60dp"
-        android:indeterminateTint="@color/accent"
+        android:indeterminateTint="@color/color_accent"
         android:indeterminateTintMode="src_atop"
         android:visibility="gone" />
 

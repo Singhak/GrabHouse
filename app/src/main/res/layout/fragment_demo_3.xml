@@ -9,24 +9,39 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <ImageView
-            android:id="@+id/imageview_chickenlogo_3"
+            android:id="@+id/imageview_chickenlogo"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:scaleType="centerInside"
             android:src="@drawable/icon_200x200"
-            android:layout_marginLeft="30dp"
-            android:layout_marginBottom="25dp"/>
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <com.grabhouse.grabhouse.views.TextView_roboto_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="grab"
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"/>
+            <com.grabhouse.grabhouse.views.TextView_roboto_bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="house"
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textSize="40dp"
-            android:textStyle="bold"
-            android:textColor="#232323"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Fresh chicken door delivered"
+            android:text="Buy house of your choice easily"
             android:textSize="18sp"
             android:layout_marginTop="10dp"
             android:textColor="#605f5f"/>

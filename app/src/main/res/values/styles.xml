@@ -1,8 +1,26 @@
 <resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/button_color</item>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
     </style>
 
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CollapsedTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ExpandedTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

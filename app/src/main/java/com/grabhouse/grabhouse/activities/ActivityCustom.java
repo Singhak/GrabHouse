@@ -50,11 +50,7 @@ public class ActivityCustom extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
-            Intent intent = new Intent(activity, ActivitySettings.class);
-            startActivity(intent);
-            return true;
-        }else if(id == android.R.id.home){
+        if(id == android.R.id.home){
             onBackPressed();
             return true;
         }

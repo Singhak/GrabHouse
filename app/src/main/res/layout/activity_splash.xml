@@ -2,8 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
 
-    <include
-        layout="@layout/logo"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_200x200"
+        android:layout_gravity="center" />
 </FrameLayout>

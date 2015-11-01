@@ -15,9 +15,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon_96x96"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyARtjkJDtWKsOmO60w1avtYBguaKDz5YrE"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
         <activity
             android:name=".activities.ActivitySplash"
             android:noHistory="true"
@@ -28,11 +34,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.ActivityDemo"/>
+        <activity android:name=".activities.ActivityDemo" android:parentActivityName=".activities.MainActivity"/>
         <activity android:name=".activities.ActivityOTP"/>
         <activity android:name=".activities.MainActivity"/>
-        <activity android:name=".activities.ActivityAbout"/>
-        <activity android:name=".activities.ActivitySettings"/>
+        <activity android:name=".activities.ActivityAbout" android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.ActivityOwnerDetail"/>
+        <activity android:name=".activities.ActivityPropertyDetail"/>
+        <activity android:name=".activities.ActivitySearch" android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.ActivityPost" android:windowSoftInputMode="stateHidden" android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.ActivityLocation"/>
+        <activity android:name=".activities.ActivityHouseMap"/>
+        <receiver android:name=".receiver.SmsReceiver">
+            <intent-filter android:priority="9999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <!-- Intent service -->
+        <service
+            android:name=".service.HttpService"
+            android:exported="false" />
     </application>
 
 </manifest>

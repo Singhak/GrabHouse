@@ -82,7 +82,7 @@ public class ActivityDemo extends ActionBarActivity {
                 Log.d("Riyas", "onPageScrolled: " + positionOffset);
 
                 if(position==0 && positionOffset > 0f) {
-                    setAlphaForLogo(positionOffset);
+                    //setAlphaForLogo(positionOffset);
                 }
 
                 mSelectedPosition = position;
@@ -160,50 +160,5 @@ public class ActivityDemo extends ActionBarActivity {
         float g = (Color.green(color1) * ratio) + (Color.green(color2) * inverseRation);
         float b = (Color.blue(color1) * ratio) + (Color.blue(color2) * inverseRation);
         return Color.rgb((int) r, (int) g, (int) b);
-    }
-
-    private void setAlphaForLogo(float alpha){
-        ImageView iv = (ImageView) mViewPager.getChildAt(1).findViewById(R.id.imageview_chickenlogo_2);
-        if(iv != null) mViewPager.getChildAt(1).findViewById(R.id.imageview_chickenlogo_2).setAlpha(alpha);
-    }
-
-
-    private void changeBackgroundColor(int position){
-
-        int colorFrom = 0;
-        int colorTo = 0;
-        if(position == 0 && currentBackgroundColor == 1) {
-            colorFrom = getResources().getColor(R.color.green);
-            colorTo = getResources().getColor(R.color.blue);
-        }else if(position == 1 && currentBackgroundColor == 0){
-            colorFrom = getResources().getColor(R.color.blue);
-            colorTo = getResources().getColor(R.color.green);
-        }
-        else if(position == 2 && currentBackgroundColor == 1) {
-            colorFrom = getResources().getColor(R.color.green);
-            colorTo = getResources().getColor(R.color.skyblue);
-        }else if(position == 1 && currentBackgroundColor == 2){
-            colorFrom = getResources().getColor(R.color.skyblue);
-            colorTo = getResources().getColor(R.color.green);
-        }
-
-            ValueAnimator colorAnimation = ValueAnimator.ofObject(new ArgbEvaluator(), colorFrom, colorTo);
-            colorAnimation.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-
-                @Override
-                public void onAnimationUpdate(ValueAnimator animator) {
-                    mViewPager.setBackgroundColor((Integer)animator.getAnimatedValue());
-                }
-
-            });
-            colorAnimation.setDuration(1000);
-            colorAnimation.start();
-
-        currentBackgroundColor = position;
-
-    }
-
-    public ViewPager getViewPager(){
-        return this.mViewPager;
     }
 }

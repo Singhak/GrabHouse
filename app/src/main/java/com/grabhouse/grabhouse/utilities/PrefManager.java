@@ -26,6 +26,7 @@ public class PrefManager {
     private static final String KEY_MOBILE_NUMBER = "mobile_number";
     private static final String KEY_IS_LOGGED_IN = "isLoggedIn";
     private static final String KEY_MOBILE = "mobile";
+    private static final String KEY_SERVER_KEY = "key";
 
     public PrefManager(Context context) {
         this._context = context;
@@ -60,6 +61,15 @@ public class PrefManager {
         return pref.getBoolean(KEY_IS_WAITING_FOR_SMS, false);
     }
 
+    public void setServerKey(String key) {
+        editor.putString(KEY_SERVER_KEY, key);
+        editor.commit();
+    }
+
+    public String getKeyServerKey() {
+        return pref.getString(KEY_SERVER_KEY, null);
+    }
+
     public void setMobileNumber(String mobileNumber) {
         editor.putString(KEY_MOBILE_NUMBER, mobileNumber);
         editor.commit();
@@ -68,6 +78,7 @@ public class PrefManager {
     public String getMobileNumber() {
         return pref.getString(KEY_MOBILE_NUMBER, null);
     }
+
 
     public void createLogin(String mobile) {
         editor.putString(KEY_MOBILE, mobile);
